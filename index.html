@@ -80,7 +80,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Public+Sans:wght@500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Public+Sans:wght@500;800&display=swap"
       rel="stylesheet"
     />
 
@@ -91,7 +91,9 @@
     <link rel="stylesheet" href="./assets/styles/styles.css" />
   </head>
   <body>
+    <!-- Header -->
     <header class="header">
+      <!-- Header top -->
       <div class="header-top">
         <div class="container">
           <div class="header-top__inner">
@@ -113,6 +115,66 @@
           <div class="header-top__strike-through"></div>
         </div>
       </div>
+
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero__inner">
+            <!-- Hero content -->
+            <section class="hero__content">
+              <h1 class="hero__heading">We’re a creative design agency.</h1>
+              <p class="hero__desc">
+                A brilliant, modular agency template for startup’s build yours
+                toady.
+              </p>
+              <div class="hero__cta-group">
+                <a href="" class="btn">Get in touch</a>
+                <button class="hero__watch-video">
+                  <div class="hero__half-border-circle">
+                    <div class="hero__icon">
+                      <svg
+                        width="8"
+                        height="10"
+                        viewBox="0 0 8 10"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M7.48979 4.22586C8.15106 4.61996 8.13773 5.58212 7.4658 5.95775L1.49682 9.29454C0.824887 9.67017 -0.00170366 9.17755 0.00896126 8.40782L0.103701 1.57014C0.114366 0.800411 0.954284 0.330874 1.61555 0.724974L7.48979 4.22586Z"
+                          fill="#FEF6FB"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <span>Watch Video</span>
+                </button>
+              </div>
+            </section>
+
+            <!-- Hero media -->
+            <div class="hero__media">
+              <figure class="hero__images">
+                <img
+                  src="./assets/images/hero-01.png"
+                  alt="hero-01"
+                  class="hero__image"
+                />
+                <img
+                  src="./assets/images/hero-02.png"
+                  alt="hero-02"
+                  class="hero__image"
+                />
+                <img
+                  src="./assets/images/hero-03.png"
+                  alt="hero-03"
+                  class="hero__image"
+                />
+              </figure>
+              <div class="hero__media--background"></div>
+            </div>
+          </div>
+        </div>
+      </section>
     </header>
   </body>
 </html>
