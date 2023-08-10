@@ -276,3 +276,23 @@ a {
   bottom: -62px;
   right: 47px;
 }
+
+/* Client */
+.client {
+  margin: 42px 0 53px;
+}
+
+.client__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 77px 122px;
+  width: 100%;
+  height: 201px;
+  background-color: #e2eddf;
+  border-radius: 100px;
+}
+
+.agworld-icon {
+  margin-right: 11px;
+}
