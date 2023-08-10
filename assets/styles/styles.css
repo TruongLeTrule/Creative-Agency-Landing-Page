@@ -114,6 +114,10 @@ a {
 }
 
 /* Hero */
+.hero {
+  padding-bottom: 87px;
+}
+
 .hero__inner {
   display: flex;
   column-gap: 66px;
@@ -238,4 +242,37 @@ a {
   right: 0;
   left: 0;
   margin: auto;
+}
+
+.flower-decor--left,
+.flower-decor--right,
+.rope--left,
+.rope--right {
+  position: absolute;
+}
+
+.flower-decor--left {
+  top: -25px;
+  left: -192px;
+  width: 72.033px;
+  height: 72px;
+  transform: rotate(9.392deg);
+}
+
+.rope--left {
+  top: -32px;
+  left: -153px;
+}
+
+.flower-decor--right {
+  bottom: -34px;
+  right: 9px;
+  width: 72.033px;
+  height: 72px;
+  transform: rotate(-174.659deg);
+}
+
+.rope--right {
+  bottom: -62px;
+  right: 47px;
 }
