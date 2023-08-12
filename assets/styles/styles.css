@@ -682,7 +682,7 @@ a {
 
 .process__list {
   margin-top: 81px;
-  max-height: 505px;
+  height: 505px;
 }
 
 /* Process item common */
@@ -770,4 +770,9 @@ a {
 .process-item,
 .process-item__image--blur {
   transition: 0.25s;
+}
+
+/* Project */
+.project {
+  margin-top: 100px;
 }
