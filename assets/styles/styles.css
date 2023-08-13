@@ -841,6 +841,8 @@ a {
   height: 544px;
   object-fit: cover;
   border-radius: 22px;
+  opacity: 0.5;
+  transition: 0.25s;
 }
 
 .project-video__btn {
@@ -861,31 +863,17 @@ a {
   transition: 0.25s;
 }
 
-.project-video {
+.project-video:hover {
   cursor: pointer;
 }
 
+.project-video:hover .project-video__thumb {
+  opacity: 1;
+}
+
 .project-video:hover .project-video__btn {
+  cursor: pointer;
   opacity: 0.9;
   background-color: #fff;
   color: #000;
-}
-
-.project__rope,
-.project__flower {
-  position: absolute;
-}
-
-.project__flower {
-  width: 72.033px;
-  height: 72px;
-  transform: rotate(176.985deg);
-  top: -66px;
-  right: -56px;
-}
-
-.project__rope {
-  transform: rotate(101.36deg);
-  top: -121px;
-  right: -144px;
 }
