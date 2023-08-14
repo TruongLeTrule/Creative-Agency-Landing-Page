@@ -198,6 +198,7 @@ a {
 }
 
 .hero__watch-video {
+  min-width: 213px;
   display: flex;
   column-gap: 15px;
   align-items: center;
